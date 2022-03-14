@@ -11,4 +11,4 @@ const sequelize = new Sequelize(DATABASE_URL, {
     }
   }
 })
-module.expores = sequelize
+module.exports = sequelize
